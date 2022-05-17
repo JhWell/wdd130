@@ -1,3 +1,8 @@
+.home title  {
+     font-family: 'Patrick Hand', 'Indie Flower', 'sans-serif';
+     font-size: 2em;
+     margin-top: 10px;
+}
 #content {
     margin: 0 auto; 
 }
@@ -5,6 +10,7 @@ nav a {
     text-align: center;
     color: #fbfbfd;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,6 +27,13 @@ main section{
 }
 body {
     background-color: #fbfbfd;
+    font-family: Patrick Hand, Indie Flower, sans serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color: rgba(20,30,13, .7);
@@ -31,18 +44,26 @@ nav a:hover{
 .book, .join{
     background-color: rgb(163, 209, 208) ;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: rgb(49, 49, 59);
 }
 .msg h2{
     background-color: rgb(75, 107, 83);
+    font-family: 'Indie Flower' ;
+    padding: 35px;
 }
 footer{
     background-color: rgb(172, 143, 115);
+    margin-top: 200px;
 }
 .msg p { 
     background-color: rgb(125, 205, 118);
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 footer h3 {
     background-color: rgb(172, 143, 115);
@@ -50,6 +71,7 @@ footer h3 {
 footer a {
     background-color: rgb(172, 143, 115);
     text-decoration: none;
+    padding: 25px 50px ;
 }
 footer a:hover{
     background-color: rgb(107, 214, 139);
@@ -57,4 +79,20 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3
+}
+main section img{
+    box-sizing: border-box;
 }
