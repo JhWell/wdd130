@@ -130,7 +130,8 @@ footer .social img{
     width: 50px;
 }
 .social{
-    display: flex;max-width: 30%;
+    display: flex;
+    max-width: 30%;
 }
 #logo_link {
     padding-top: 5px;
